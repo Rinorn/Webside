@@ -1,0 +1,19 @@
+.wrapper img {
+   width: 50%;
+}
+.wrapper img {
+    max-width: 600px;
+}
+.wrapper2 img {
+   width: 10;
+}
+#navBarLogo {
+  max-width: 85px;
+  max-height: 85px;
+}
+#navBarLogo{
+  width: 50%;
+}
+#textFont {
+  font-style: oblique;
+}
