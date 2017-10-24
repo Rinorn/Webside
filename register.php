@@ -9,13 +9,22 @@ $lname = $_POST['lname'];
 $uname = $_POST['uname'];
 $pwd = $_POST['pwd'];
 
-//create hashed password
-$hash_pwd = password_hash($pwd, PASSWORD_BCRYPT);
+$sql_check = "SELECT * FROM login WHERE uname='$uname'";
 
-//Creting sql command: INSERT INTO table_name (var1, var2, ...) VALUES (var1 from form, var2 from form, ...)
-$sql = "INSERT INTO `login`(`fname`, `lname`, `uname`, `pwd`) VALUES ('$fname', '$lname', '$uname', '$hash_pwd')";
-//result returned by DB
-$result = mysqli_query($link, $sql);
+$result_check = mysqli_query($link, $sql_check);
+
+if(mysqli_fetch_assoc($result_check)){
+  echo "User already exists";
+} else {
+
+  //create hashed password
+  $hash_pwd = password_hash($pwd, PASSWORD_BCRYPT);
+
+  //Creting sql command: INSERT INTO table_name (var1, var2, ...) VALUES (var1 from form, var2 from form, ...)
+  $sql = "INSERT INTO `login`(`fname`, `lname`, `uname`, `pwd`) VALUES ('$fname', '$lname', '$uname', '$hash_pwd')";
+  //result returned by DB
+  $result = mysqli_query($link, $sql);
+}
 
 //return user to index.php
 header("Location: index.php");
