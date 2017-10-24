@@ -1,5 +1,9 @@
 <?php
 session_start();
+
+if(!isset($_SESSION['id'])){
+  header("Location:index.php");
+}
  ?>
 
 <!doctype html>
@@ -78,45 +82,13 @@ session_start();
     </nav>
     <main>
       <div class="jumbotron text-center jumbotron-fluid d-none d-md-block">
-        <h1>Kollikvie Best</h1>
+        <h1>Kollokvie Best</h1>
         <p>We specialize in corn</p>
-          <div class="d-flex justify-content-center">
-          <form class="form-inline my-2 my-lg-0"><!--søkefelt og søkeknapp må legges i en form tagg-->
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search" />
-            <button class="btn btn-outline-success my-2 y-sm-0 bg-dark" type="submit">Search</button>
-          </form>
-        </div>
       </div>
       <div class="row">
-        <div class="container-fluid col-md-10 centered">
+        <div class="container-fluid col-md-10 centered" style="background-color:#FFCC99">
           <div class="col-sm-12">
-            <div class="container-fluid text-center" id=contBox1>
-              <div class="contText">
-                <h1>About </h1>
-                <h3>Blablablablablablablabla</h3>
-                <a href="index.php">Read more</a>
-              </div>
-            </div>
-            <div class="container-fluid text-center" id=contBox2>
-              <div class="contText">
-                <h1>Projects</h1>
-                <h3>blablablatatatata</h3>
-                <a href="index.php"><p class="text-danger">Read more</p></a>
-              </div>
-            </div>
-            <div class="container-fluid text-center" id=contBox3>
-              <div class="contText">
-                <h1>Portfolias</h1>
-                <h3>blablablatatatata</h3>
-                <a href="index.php"><p class="text-danger">Read more</p></a>
-              </div>
-            </div>
-            <div class="container-fluid text-center" id=contBox4>
-              <div class="contText">
-                <h1>Forum</h1>
-                <h3>blablablatatatata</h3>
-                <a href="index.php"><p class="text-danger">Read more</p></a>
-              </div>
+            <h1><?php echo $_SESSION['fname'] . " " . $_SESSION['lname']; ?></h1>
             </div>
           </div>
         </div>

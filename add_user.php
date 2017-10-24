@@ -20,6 +20,7 @@ session_start();
      ?>
      <br />
      <h3>Add new user</h3>
+     <!-- method="post" to hide data -->
      <form action="register.php" method="post">
        <input type="text" name="fname" placeholder="Firstname">
        <br />
@@ -31,12 +32,5 @@ session_start();
        <br />
        <button type="submit">Register</button>
      </form>
-
-    <br>
-    <br>
-    <br>
-
-    <!-- method="post" to hide data -->
-
   </body>
 </html>
