@@ -24,7 +24,16 @@ body {
 
 }
 #contBox1 {
-  background-color: #663300;
+  background-color: #996600;
+}
+#contBox2 {
+  background-color: #666633;
+}
+#contBox3 {
+  background-color: #CC9933;
+}
+#contBox4 {
+  background-color: #FFCC99;
 }
 #mainColYlw {
   color: #FFFF00 !important;

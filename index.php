@@ -97,21 +97,21 @@ session_start();
                 <a href="index.php">Read more</a>
               </div>
             </div>
-            <div class="container-fluid text-center bg-primary" id=contBox2>
+            <div class="container-fluid text-center" id=contBox2>
               <div class="contText">
                 <h1>Projects</h1>
                 <h3>blablablatatatata</h3>
                 <a href="index.php"><p class="text-danger">Read more</p></a>
               </div>
             </div>
-            <div class="container-fluid text-center bg-warning" id=contBox3>
+            <div class="container-fluid text-center" id=contBox3>
               <div class="contText">
                 <h1>Portfolias</h1>
                 <h3>blablablatatatata</h3>
                 <a href="index.php"><p class="text-danger">Read more</p></a>
               </div>
             </div>
-            <div class="container-fluid text-center bg-danger" id=contBox4>
+            <div class="container-fluid text-center" id=contBox4>
               <div class="contText">
                 <h1>Forum</h1>
                 <h3>blablablatatatata</h3>
