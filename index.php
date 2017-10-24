@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto"> <!--oppretter navbar Elementer-->
             <li class="nav-item active">
-              <a class="nav-link" href="#">Calendar</a>
+              <a class="nav-link" href="#">Calendari</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Portfolia</a>
