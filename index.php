@@ -86,7 +86,7 @@ session_start();
           <div class="col-sm-12">
             <div class="container-fluid text-center bg-danger">
               <div class="contText">
-              <h4>Basic info about ipsum </h4>
+              <h4>Basic info about ipsium </h4>
               <p>Blablablablablablablabla</p>
               <a href="index.php">Read more</a>
             </div>
