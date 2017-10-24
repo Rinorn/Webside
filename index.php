@@ -73,17 +73,17 @@ session_start();
             </div>
           </header><!--Slutt på Headermeny-->
         </nav>
-          <div class="jumbotron text-center jumbotron-fluid bg-secondary d-none d-md-block">
-            <h1>Kollikvie Best</h1>
-            <p>We specialize in corn</p>
-              <div class="d-flex justify-content-center">
-              <form class="form-inline my-2 my-lg-0"><!--søkefelt og søkeknapp må legges i en form tagg-->
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search" />
-                <button class="btn btn-outline-success my-2 y-sm-0 bg-dark" type="submit">Search</button>
-              </form>
-            </div>
+        <div class="jumbotron text-center jumbotron-fluid bg-secondary d-none d-md-block">
+          <h1>Kollikvie Best</h1>
+          <p>We specialize in corn</p>
+            <div class="d-flex justify-content-center">
+            <form class="form-inline my-2 my-lg-0"><!--søkefelt og søkeknapp må legges i en form tagg-->
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search" />
+              <button class="btn btn-outline-success my-2 y-sm-0 bg-dark" type="submit">Search</button>
+            </form>
           </div>
-          <h3 class="text-center" id="textFont">Koll<span class="text-danger">B</span></h3><!--bruker JQ til å forandre fargen på "B" for fun-->
+        </div>
+        <h3 class="text-center" id="textFont">Koll<span class="text-danger">B</span></h3><!--bruker JQ til å forandre fargen på "B" for fun-->
 
 
 
