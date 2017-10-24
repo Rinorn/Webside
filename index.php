@@ -11,8 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--bootstrap CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"><!--Legger til Css stylesheet for bootstrap-->
-    <link rel="stylesheet"href="webSide.css"
-
+    <link rel="stylesheet"href="webSide.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-md  navbar-light bg-secondary" id="mainNavbar" ><!--oppretter navbar-->
