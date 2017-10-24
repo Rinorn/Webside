@@ -71,8 +71,8 @@ session_start();
                 </form>
               </div>
             </div>
+            </nav>
           </header><!--Slutt på Headermeny-->
-        </nav>
           <div class="jumbotron text-center jumbotron-fluid bg-secondary d-none d-md-block">
             <h1>Kollikvie Best</h1>
             <p>We specialize in corn</p>
