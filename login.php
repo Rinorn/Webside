@@ -14,7 +14,7 @@ $sql = "SELECT * FROM login WHERE uname='$uname'";
 $result = mysqli_query($link, $sql);
 //mysqli_fetch_assoc returns an assossiative array with row from result
 if(!$row = mysqli_fetch_assoc($result)){
-  echo "No user with that name!";
+  $_SESSION['error']= "No user with that name!";
 } else {
   //verifying if password matches hash
   if(password_verify($pwd, $row['pwd'])){
