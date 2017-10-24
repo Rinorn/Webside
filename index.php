@@ -66,7 +66,7 @@ session_start();
                 </div><!--slutten av "bruker" dropdown-->
                 <form class="form-inline my-2 my-lg-0 d-block d-md-none"><!--søkefelt og søkeknapp må legges i en form tagg-->
                   <input class="form-control mr-sm-2" type="search"data-toggle="collapse" placeholder="Search" aria-label="search" />
-                  <button class="btn btn-outline-success my-2 ,y-sm-0 bg-dark" type="submit">Search</button>
+                  <button class="btn btn-outline-success my-2 y-sm-0 bg-dark" type="submit">Search</button>
                 </form>
               </div>
             </div>
