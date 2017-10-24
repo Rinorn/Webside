@@ -9,8 +9,11 @@ $lname = $_POST['lname'];
 $uname = $_POST['uname'];
 $pwd = $_POST['pwd'];
 
+//create hashed password
+$hash_pwd = password_hash($pwd, PASSWORD_BCRYPT);
+
 //Creting sql command: INSERT INTO table_name (var1, var2, ...) VALUES (var1 from form, var2 from form, ...)
-$sql = "INSERT INTO `login`(`fname`, `lname`, `uname`, `pwd`) VALUES ('$fname', '$lname', '$uname', '$pwd')";
+$sql = "INSERT INTO `login`(`fname`, `lname`, `uname`, `pwd`) VALUES ('$fname', '$lname', '$uname', '$hash_pwd')";
 //result returned by DB
 $result = mysqli_query($link, $sql);
 
