@@ -5,7 +5,7 @@ session_start();
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Kollokvie Best</title>
+    <title>Kollikvie Best</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
