@@ -1,11 +1,5 @@
 
-#navBarLogo {
-  max-width: 85px;
-  max-height: 85px;
-}
-#navBarLogo{
-  width: 50%;
-}
+
 #textFont {
   font-style: oblique;
 }
@@ -14,7 +8,31 @@
 }
 .jumbotron {
   margin-bottom: 0px !important;
+  background-color: #006600;
+  color: #FFFF00;
 }
 .contText {
   padding-top: 170px;
+  margin-bottom: -16px;
+  margin-top: 0px;
+}
+body {
+    background-color: #333333;
+}
+.navbar{
+  background-color: #006600;
+
+}
+#contBox1 {
+  background-color: #663300;
+}
+#mainColYlw {
+  color: #FFFF00 !important;
+}
+
+#loginBgCol{
+  background-color: #FFFF00 !important;
+}
+#btnSearch {
+  background-color: #333333 !important;
 }
