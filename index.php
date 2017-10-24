@@ -14,7 +14,7 @@ session_start();
     <link rel="stylesheet"href="webSide.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md  navbar-light bg-secondary" id="mainNavbar" ><!--oppretter navbar-->
+    <nav class="navbar navbar-expand-md  navbar-light bg-secondary fixed-top" id="mainNavbar" ><!--oppretter navbar-->
       <div class="container" id="navbarContainer">
         <a class="navbar-brand" href="index.html">Home</a> <!--Home knapp som laster index.html-->
         <a class="navbar-brand" href="#"></a><!--Legger til logo på navbar-->
@@ -81,7 +81,26 @@ session_start();
           </form>
         </div>
       </div>
-      <h3 class="text-center" id="textFont">Koll<span class="text-danger">B</span></h3><!--bruker JQ til å forandre fargen på "B" for fun-->
+      <div class="row">
+        <div class="container-fluid col-md-10 centered">
+          <div class="col-sm-12">
+            <div class="container-fluid text-center bg-danger">
+              <div class="contText">
+              <h4>Basic info about ipsum </h4>
+              <p>Blablablablablablablabla</p>
+              <a href="index.php">Read more</a>
+            </div>
+            </div>
+            <div class="container-fluid text-center bg-primary">
+              <div class="contText">
+              <h4>Persons </h4>
+              <p>blablablatatatata</p>
+              <a href="index.php"><p class="text-danger">Read more</p></a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><!--implementerer bootstraps JQuerys lib-->
