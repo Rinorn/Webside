@@ -28,49 +28,44 @@
               <a class="nav-link" href="#">Portfolia</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a><!--sr-only(current) brukes for at blinde skal vite hvilket alternativ som er valgt.-->
+              <a class="nav-link" href="#">Projects</a>
             </li>
               </ul>
               <div class="pull-right"><!--må ha en ny div for at bruker knappen skal legges helt til høyere på navbar-->
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item dropdown nav-item-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Users</a>
-                      <form class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">
-                        <input id="parentBackGColTest" class="'form-control' 'dropdown-item'" type="text" placeholder="Skriv inn brukernavn" />
-                        <input class="'form-control', 'dropdown-item'" type="password" placeholder="Skriv inn passord" />
+                      <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">
+                        <input id="parentBackGColTest" class="" type="text" placeholder="Skriv inn brukernavn" />
+                        <input class="" type="password" placeholder="Skriv inn passord" />
                         <button id="btnLoggInn" class="btn btn-block btn-dark">Logg inn</button>
-                      </form>
+                      </div>
                     </li>
                   </ul>
                 </div><!--slutten av "bruker" dropdown-->
-                <form class="form-inline my-2 my-lg-0 d-block d-sm-none"><!--søkefelt og søkeknapp må legges i en form tagg-->
+                <form class="form-inline my-2 my-lg-0 d-block d-md-none"><!--søkefelt og søkeknapp må legges i en form tagg-->
                   <input class="form-control mr-sm-2" type="search"data-toggle="collapse" placeholder="Search" aria-label="search" />
                   <button class="btn btn-outline-success my-2 ,y-sm-0 bg-dark" type="submit">Search</button>
                 </form>
               </div>
             </div>
-          </Header><!--Slutt på Headermeny-->
-          <div class="jumbotron text-center jumbotron-fluid bg-secondary d-none d-sm-block">
-              <h1>Company</h1>
-              <p>We specialize in blablabla</p>
-
-
+          </header><!--Slutt på Headermeny-->
+          <div class="jumbotron text-center jumbotron-fluid bg-secondary d-none d-md-block">
+            <h1>Kollikvie Best</h1>
+            <p>We specialize in corn</p>
               <div class="d-flex justify-content-center">
               <form class="form-inline my-2 my-lg-0"><!--søkefelt og søkeknapp må legges i en form tagg-->
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search" />
-                <button class="btn btn-outline-success my-2 ,y-sm-0 bg-dark" type="submit">Search</button>
+                <button class="btn btn-outline-success my-2 y-sm-0 bg-dark" type="submit">Search</button>
               </form>
             </div>
           </div>
-
           <h3 class="text-center" id="textFont">Koll<span class="text-danger">B</span></h3><!--bruker JQ til å forandre fargen på "B" for fun-->
-            <div class="wrapper"><!--bruker wrapper klassen for å bilde til å ligge i center av skjermen og holde en ok størrelse. fant ingen classe som fungerte på bilder, på samme måte som text-center gjør for tekst-->
-              <img src="kolbe.jpg" class="mx-auto d-block " />
-            </div>
 
 
 
-    <script src="javascript.js"></script>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><!--implementerer bootstraps JQuerys lib-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script><!--implementerer bootstraps Popper.js lib-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script><!--implementerer bootstraps javascript plugins-->
