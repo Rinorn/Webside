@@ -51,6 +51,7 @@ session_start();
                       if(isset($_SESSION['id'])){
                         echo '<form action="logout.php" class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">';
                         echo '<button type="submit" id="btnLogOut" class="btn btn-block btn-dark">Log out</button>';
+                        echo '<a class="nav-link" href="./add_user.php">Add user</a>';
                         echo '</form>';
                       }
                       else{
