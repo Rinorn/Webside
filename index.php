@@ -1,3 +1,7 @@
+<?php
+session_start();
+ ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -34,12 +38,29 @@
               <div class="pull-right"><!--må ha en ny div for at bruker knappen skal legges helt til høyere på navbar-->
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item dropdown nav-item-right">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Users</a>
-                      <form class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">
-                        <input id="parentBackGColTest" class="'form-control' 'dropdown-item'" type="text" placeholder="Skriv inn brukernavn" />
-                        <input class="'form-control', 'dropdown-item'" type="password" placeholder="Skriv inn passord" />
-                        <button id="btnLoggInn" class="btn btn-block btn-dark">Logg inn</button>
-                      </form>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <?php
+                      if(isset($_SESSION['uname'])){
+                        echo $_SESSION['uname'];
+                      } else {
+                        echo "User";
+                      }
+                      ?>
+                    </a>
+                    <?php
+                      if(isset($_SESSION['id'])){
+                        echo '<form action="logout.php" class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">';
+                        echo '<button type="submit" id="btnLogOut" class="btn btn-block btn-dark">Log out</button>';
+                        echo '</form>';
+                      }
+                      else{
+                        echo '<form action="login.php" method="post" class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">';
+                        echo '<input id="parentBackGColTest" name="uname" type="text" placeholder="Skriv inn brukernavn" />';
+                        echo '<input name="pwd" type="password" placeholder="Skriv inn passord" />';
+                        echo '<button type="submit" id="btnLogIn" class="btn btn-block btn-dark">Log in</button>';
+                        echo '</form>';
+                      }
+                    ?>
                     </li>
                   </ul>
                 </div><!--slutten av "bruker" dropdown-->
