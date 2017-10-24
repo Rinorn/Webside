@@ -35,9 +35,11 @@ session_start();
             <li class="nav-item active">
               <a id="mainColYlw" class="nav-link" href="#contBox4">Forum</a>
             </li>
-            <li class="nav-item active">
-              <a id="mainColYlw" class="nav-link" href="#">Calendar</a>
-            </li>
+            <?php if(isset($_SESSION['id'])){
+              echo '<li class="nav-item active">
+                <a id="mainColYlw" class="nav-link" href="#">Calendar</a>
+              </li>';
+            } ?>
           </ul>
           <div class="pull-right"><!--må ha en ny div for at bruker knappen skal legges helt til høyere på navbar-->
             <ul class="navbar-nav mr-auto">
