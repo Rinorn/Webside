@@ -11,12 +11,12 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--bootstrap CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"><!--Legger til Css stylesheet for bootstrap-->
-    <link rel="stylesheet"href="webSide.css">
+    <link rel="stylesheet" href="webSide.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-md  navbar-light  fixed-top" id="mainNavbar" ><!--oppretter navbar-->
       <div class="container" id="navbarContainer">
-        <a id="mainColYlw"class="navbar-brand" href="index.html">Home</a> <!--Home knapp som laster index.html-->
+        <a id="mainColYlw"class="navbar-brand" href="#contBoxJumbo">Home</a> <!--Home knapp som laster index.html-->
         <a class="navbar-brand" href="#"></a><!--Legger til logo på navbar-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!--Legger til menytoggel knapp når siden er "liten"/dratt sammen-->
           <span class="navbar-toggler-icon"></span>
@@ -24,16 +24,16 @@ session_start();
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto"> <!--oppretter navbar Elementer-->
             <li class="nav-item active">
-              <a id="mainColYlw" class="nav-link" href="#">About</a>
+              <a id="mainColYlw" class="nav-link" href="#contBox1">About</a>
             </li>
             <li class="nav-item active">
-              <a id="mainColYlw" class="nav-link" href="#">Projects</a>
+              <a id="mainColYlw" class="nav-link" href="#contBox2">Projects</a>
             </li>
             <li class="nav-item active">
-              <a id="mainColYlw" class="nav-link" href="#">Portfolias</a>
+              <a id="mainColYlw" class="nav-link" href="#contBox3">Portfolias</a>
             </li>
             <li class="nav-item active">
-              <a id="mainColYlw" class="nav-link" href="#">Forum</a>
+              <a id="mainColYlw" class="nav-link" href="#contBox4">Forum</a>
             </li>
             <li class="nav-item active">
               <a id="mainColYlw" class="nav-link" href="#">Calendar</a>
@@ -77,7 +77,7 @@ session_start();
       </div>
     </nav>
     <main>
-      <div class="jumbotron text-center jumbotron-fluid d-none d-md-block">
+      <div class="jumbotron text-center jumbotron-fluid d-none d-md-block" id="contBoxJumbo">
         <h1>Kollikvie Best</h1>
         <p>We specialize in corn</p>
           <div class="d-flex justify-content-center">
@@ -90,28 +90,28 @@ session_start();
       <div class="row">
         <div class="container-fluid col-md-10 centered">
           <div class="col-sm-12">
-            <div class="container-fluid text-center" id=contBox1>
+            <div class="container-fluid text-center" id="contBox1">
               <div class="contText">
                 <h1>About </h1>
                 <h3>Blablablablablablablabla</h3>
                 <a href="index.php">Read more</a>
               </div>
             </div>
-            <div class="container-fluid text-center" id=contBox2>
+            <div class="container-fluid text-center" id="contBox2">
               <div class="contText">
                 <h1>Projects</h1>
                 <h3>blablablatatatata</h3>
                 <a href="index.php"><p class="text-danger">Read more</p></a>
               </div>
             </div>
-            <div class="container-fluid text-center" id=contBox3>
+            <div class="container-fluid text-center" id="contBox3">
               <div class="contText">
                 <h1>Portfolias</h1>
                 <h3>blablablatatatata</h3>
                 <a href="index.php"><p class="text-danger">Read more</p></a>
               </div>
             </div>
-            <div class="container-fluid text-center" id=contBox4>
+            <div class="container-fluid text-center" id="contBox4">
               <div class="contText">
                 <h1>Forum</h1>
                 <h3>blablablatatatata</h3>
