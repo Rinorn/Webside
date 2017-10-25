@@ -24,20 +24,25 @@ body {
 
 }
 #contBox1 {
-  background-color: #996600;
+  background-color: #2d3844;
 }
 #contBox2 {
-  background-color: #666633;
+  background-color: #3e4955;
 }
 #contBox3 {
-  background-color: #CC9933;
+  background-color: #bb8822;
 }
 #contBox4 {
-  background-color: #FFCC99;
+  background-color: #cc9933;
 }
 .mainColYlw {
   color: #FFFF00 !important;
 }
+
+.mainColYlw:hover {
+  color: #00FFFF !important;
+}
+
 
 #loginBgCol{
   background-color: #FFFF00 !important;
