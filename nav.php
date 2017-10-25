@@ -1,5 +1,3 @@
-<?php session_start(); ?>
-
 <nav class="navbar navbar-expand-md  navbar-light  fixed-top" id="mainNavbar" ><!--oppretter navbar-->
   <div class="container" id="navbarContainer">
     <a class="navbar-brand mainColYlw" href="#contBoxJumbo">Home</a> <!--Home knapp som laster index.html-->
@@ -20,6 +18,9 @@
         </li>
         <li class="nav-item active">
           <a class="nav-link mainColYlw" href="#contBox4">Forum</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link mainColYlw" href="profile.php">Account</a>
         </li>
         <?php if(isset($_SESSION['id'])){
           echo '<li class="nav-item active">
