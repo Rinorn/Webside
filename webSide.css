@@ -18,7 +18,7 @@
   margin-top: 0px;
 }
 body {
-
+  overflow-x:hidden;
 }
 .navbar{
   background-color: #3b8480;
