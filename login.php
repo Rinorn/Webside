@@ -9,7 +9,7 @@ $uname = $_POST['uname'];
 $pwd = $_POST['pwd'];
 
 //Creting sql command: SELCTING entire login table, getting rows where username and password matches input
-$sql = "SELECT * FROM login WHERE uname='$uname'";
+$sql = "SELECT * FROM users WHERE uname='$uname'";
 //executing query, storing result
 $result = mysqli_query($link, $sql);
 //mysqli_fetch_assoc returns an assossiative array with row from result
@@ -23,6 +23,7 @@ if(!$row = mysqli_fetch_assoc($result)){
     $_SESSION['uname'] = $row['uname'];
     $_SESSION['fname'] = $row['fname'];
     $_SESSION['lname'] = $row['lname'];
+    $_SESSION['aboutme'] = $row['aboutme'];
   }
 }
 
