@@ -11,6 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--bootstrap CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"><!--Legger til Css stylesheet for bootstrap-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="webSide.css">
   </head>
   <body>
@@ -56,6 +57,7 @@ session_start();
                 <?php
                   if(isset($_SESSION['id'])){
                     echo '<form action="logout.php" class="dropdown-menu" aria-labelledby="navbarDropdown">';
+                    echo '<a class="nav-link" href="./settings.php">Settings</a>';
                     echo '<button type="submit" id="btnLogOut" class="btn btn-block btn-dark">Log out</button>';
                     echo '<a class="nav-link" href="./add_user.php">Add user</a>';
                     echo '</form>';
@@ -64,7 +66,7 @@ session_start();
                     echo '<form action="login.php" method="post" id="loginBgCol" class="dropdown-menu" aria-labelledby="navbarDropdown">';
                     echo '<input id="parentBackGColTest" name="uname" type="text" placeholder="Skriv inn brukernavn" />';
                     echo '<input name="pwd" type="password" placeholder="Skriv inn passord" />';
-                    echo '<button type="submit" id="btnLogIn" class="btn btn-block btn-dark">Log in</button>';
+                    echo '<button type="submit" id="btnLogIn" class="btn btn-block btn-dark">Log in <i class="fa fa-sign-in"></i></button>';
                     echo '</form>';
                   }
                 ?>
@@ -73,7 +75,7 @@ session_start();
           </div><!--slutten av "bruker" dropdown-->
           <form class="form-inline my-2 my-lg-0 d-block d-md-none"><!--søkefelt og søkeknapp må legges i en form tagg-->
             <input class="form-control mr-sm-2" type="search"data-toggle="collapse" placeholder="Search" aria-label="search" />
-            <button id="btnSearch"class="btn my-2 y-sm-0" type="submit">Search</button>
+            <button id="btnSearch"class="btn my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
           </form>
         </div>
       </div>
@@ -85,7 +87,7 @@ session_start();
           <div class="d-flex justify-content-center">
           <form class="form-inline my-2 my-lg-0"><!--søkefelt og søkeknapp må legges i en form tagg-->
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search" />
-            <button class="btn  my-2 y-sm-0 bg-dark" type="submit">Search</button>
+            <button class="btn  my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
           </form>
         </div>
       </div>

@@ -18,26 +18,26 @@
   margin-top: 0px;
 }
 body {
-    background-color: #969b9b;
+
 }
 .navbar{
   background-color: #3b8480;
-
+  color: #f9f9f9;
 }
 #contBox1 {
 
-  background-color: #b3e5de;
+  background-color: #f9f9f9;
 
 }
 #contBox2 {
-  background-color: #75c6bb;
+  background-color: #efefef;
 }
 
 #contBox3 {
-  background-color: #b3e5de;
+  background-color: #f9f9f9;
 }
 #contBox4 {
-  background-color: #75c6bb;
+  background-color: #efefef;
 }
 .mainColYlw {
   color: white !important;
@@ -47,8 +47,8 @@ body {
   color: black !important;
 }
 #loginBgCol{
-  background-color: #75c6bb !important;
+  background-color: #3b8480 !important;
 }
 #btnSearch {
-  background-color: #333333 !important;
+  background-color: #f9f9f9 !important;
 }
