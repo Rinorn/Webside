@@ -9,7 +9,7 @@ $lname = $_POST['lname'];
 $uname = $_POST['uname'];
 $pwd = $_POST['pwd'];
 
-$sql_check = "SELECT * FROM login WHERE uname='$uname'";
+$sql_check = "SELECT * FROM users WHERE uname='$uname'";
 
 $result_check = mysqli_query($link, $sql_check);
 
@@ -21,7 +21,7 @@ if(mysqli_fetch_assoc($result_check)){
   $hash_pwd = password_hash($pwd, PASSWORD_BCRYPT);
 
   //Creting sql command: INSERT INTO table_name (var1, var2, ...) VALUES (var1 from form, var2 from form, ...)
-  $sql = "INSERT INTO `login`(`fname`, `lname`, `uname`, `pwd`) VALUES ('$fname', '$lname', '$uname', '$hash_pwd')";
+  $sql = "INSERT INTO `users`(`fname`, `lname`, `uname`, `pwd`) VALUES ('$fname', '$lname', '$uname', '$hash_pwd')";
   //result returned by DB
   $result = mysqli_query($link, $sql);
 }
