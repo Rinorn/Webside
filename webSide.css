@@ -11,18 +11,20 @@
   padding-top: 150px;
   background-color: #3b8480;
   color: white;
+
 }
 .contText {
   padding-top: 170px;
   margin-bottom: -16px;
-  margin-top: 0px;
+
 }
 body {
-
+  overflow-x: hidden;
 }
 .navbar{
   background-color: #3b8480;
   color: #f9f9f9;
+
 }
 #contBox1 {
 
@@ -46,7 +48,7 @@ body {
 .mainColYlw:hover {
   color: black !important;
 }
-#loginDdMenu{
+.loginDdMenu{
   background-color: #3b8480 !important;
   width: 50%;
   padding-left: 1px;
@@ -64,4 +66,18 @@ body {
 }
 #inpUser {
   margin-top: -6px;
+}
+.container-fluid {
+  max-width: 100%;
+}
+#btnSettings {
+  margin-top: -6px;
+
+}
+#btnLogOut {
+margin-top: 1px;
+}
+#btnAddUser {
+  margin-top: 1px;
+  margin-bottom: -5px;
 }
