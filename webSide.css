@@ -19,7 +19,11 @@
 
 }
 body {
+<<<<<<< HEAD
   overflow-x: hidden;
+=======
+  overflow-x:hidden;
+>>>>>>> 28d4abbe82fd7b17a825d8795228fa36af7280ff
 }
 .navbar{
   background-color: #3b8480;
