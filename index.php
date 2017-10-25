@@ -30,7 +30,7 @@ session_start();
               <a class="nav-link mainColYlw" href="#contBox2">Projects</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link mainColYlw" href="#contBox3">Portfolias</a>
+              <a class="nav-link mainColYlw" href="#contBox3">Portfolio</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link mainColYlw" href="#contBox4">Forum</a>
@@ -91,7 +91,6 @@ session_start();
       </div>
       <div class="row">
         <div class="container-fluid col-md-12 centered">
-
             <div class="container-fluid text-center" id="contBox1">
               <div class="contText">
                 <h1>About </h1>
@@ -123,7 +122,6 @@ session_start();
         </div>
       </div>
     </main>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><!--implementerer bootstraps JQuerys lib-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script><!--implementerer bootstraps Popper.js lib-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script><!--implementerer bootstraps javascript plugins-->
