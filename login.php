@@ -21,6 +21,8 @@ if(!$row = mysqli_fetch_assoc($result)){
     //assossiative array with session id, is unique for all users
     $_SESSION['id'] = $row['id'];
     $_SESSION['uname'] = $row['uname'];
+    $_SESSION['fname'] = $row['fname'];
+    $_SESSION['lname'] = $row['lname'];
   }
 }
 
