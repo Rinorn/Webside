@@ -8,8 +8,9 @@
 }
 .jumbotron {
   margin-bottom: 0px !important;
-  background-color: #006600;
-  color: #FFFF00;
+  padding-top: 150px;
+  background-color: #3b8480;
+  color: white;
 }
 .contText {
   padding-top: 170px;
@@ -17,26 +18,28 @@
   margin-top: 0px;
 }
 body {
-    background-color: #333333;
+    background-color: #969b9b;
 }
 .navbar{
-  background-color: #006600;
+  background-color: #3b8480;
 
 }
 #contBox1 {
-  background-color: #996600;
+  background-color: #efefef;
+  color: black;
 }
 #contBox2 {
-  background-color: #666633;
+  background-color: #dbdbdb;
 }
 #contBox3 {
-  background-color: #CC9933;
+  background-color: #efefef;
+
 }
 #contBox4 {
-  background-color: #FFCC99;
+  background-color: #3b8480;
 }
 .mainColYlw {
-  color: #FFFF00 !important;
+  color: white !important;
 }
 
 #loginBgCol{

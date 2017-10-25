@@ -90,8 +90,8 @@ session_start();
         </div>
       </div>
       <div class="row">
-        <div class="container-fluid col-md-10 centered">
-          <div class="col-sm-12">
+        <div class="container-fluid col-md-12 centered">
+
             <div class="container-fluid text-center" id="contBox1">
               <div class="contText">
                 <h1>About </h1>
@@ -120,7 +120,6 @@ session_start();
                 <a href="index.php"><p class="text-danger">Read more</p></a>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </main>
