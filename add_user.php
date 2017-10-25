@@ -14,28 +14,23 @@ session_start();
       //if session has been set, print out user id
       if(isset($_SESSION['id'])){
         echo "Logged in as userid: " . $_SESSION['id'];
-        echo '<br><h3>Add new user</h3>
-        <form action="register.php" method="post">
-          <input type="text" name="fname" placeholder="Firstname">
-          <br />
-          <input type="text" name="lname" placeholder="Lastname">
-          <br />
-          <input type="text" name="uname" placeholder="Username">
-          <br />
-          <input type="password" name="pwd" placeholder="Password">
-          <br />
-          <button type="submit">Register</button>
-        </form>';
       } else {
         header("Location:index.php");
       }
      ?>
-
-    <br>
-    <br>
-    <br>
-
-    <!-- method="post" to hide data -->
-
+     <br />
+     <h3>Add new user</h3>
+     <!-- method="post" to hide data -->
+     <form action="register.php" method="post">
+       <input type="text" name="fname" placeholder="Firstname">
+       <br />
+       <input type="text" name="lname" placeholder="Lastname">
+       <br />
+       <input type="text" name="uname" placeholder="Username">
+       <br />
+       <input type="password" name="pwd" placeholder="Password">
+       <br />
+       <button type="submit">Register</button>
+     </form>
   </body>
 </html>
