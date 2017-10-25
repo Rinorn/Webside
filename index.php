@@ -37,7 +37,7 @@ session_start();
             </li>
             <?php if(isset($_SESSION['id'])){
               echo '<li class="nav-item active">
-                <a id="mainColYlw" class="nav-link" href="#">Calendar</a>
+                <a class="nav-link mainColYlw" href="#">Calendar</a>
               </li>';
             } ?>
           </ul>
