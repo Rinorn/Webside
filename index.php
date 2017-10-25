@@ -5,7 +5,7 @@ session_start();
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Kollikvie Best</title>
+    <title>Kollokvie Best</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -80,7 +80,7 @@ session_start();
     </nav>
     <main>
       <div class="jumbotron text-center jumbotron-fluid d-none d-md-block" id="contBoxJumbo">
-        <h1>Kollikvie Best</h1>
+        <h1>Kollokvie Best</h1>
         <p>We specialize in corn</p>
           <div class="d-flex justify-content-center">
           <form class="form-inline my-2 my-lg-0"><!--søkefelt og søkeknapp må legges i en form tagg-->
