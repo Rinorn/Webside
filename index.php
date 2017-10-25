@@ -42,7 +42,7 @@ session_start();
               </li>';
             } ?>
           </ul>
-          <div class="pull-right"><!--må ha en ny div for at bruker knappen skal legges helt til høyere på navbar-->
+          <div><!--må ha en ny div for at bruker knappen skal legges helt til høyere på navbar-->
             <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown nav-item-right">
                 <a class="nav-link dropdown-toggle mainColYlw" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,9 +63,9 @@ session_start();
                     echo '</form>';
                   }
                   else{
-                    echo '<form action="login.php" method="post" id="loginBgCol" class="dropdown-menu" aria-labelledby="navbarDropdown">';
-                    echo '<input id="parentBackGColTest" name="uname" type="text" placeholder="Skriv inn brukernavn" />';
-                    echo '<input name="pwd" type="password" placeholder="Skriv inn passord" />';
+                    echo '<form action="login.php" method="post" id="loginDdMenu" class="dropdown-menu" aria-labelledby="navbarDropdown">';
+                    echo '<input id="inpUser" class="inpLogin" name="uname" type="text" placeholder="Skriv inn brukernavn" />';
+                    echo '<input id="inpPwd" class="inpLogin" name="pwd" type="password" placeholder="Skriv inn passord" />';
                     echo '<button type="submit" id="btnLogIn" class="btn btn-block btn-dark">Log in <i class="fa fa-sign-in"></i></button>';
                     echo '</form>';
                   }
@@ -75,7 +75,7 @@ session_start();
           </div><!--slutten av "bruker" dropdown-->
           <form class="form-inline my-2 my-lg-0 d-block d-md-none"><!--søkefelt og søkeknapp må legges i en form tagg-->
             <input class="form-control mr-sm-2" type="search"data-toggle="collapse" placeholder="Search" aria-label="search" />
-            <button id="btnSearch"class="btn my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
+            <button id="btnSearch" class="btn btnHover my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
           </form>
         </div>
       </div>
@@ -87,7 +87,7 @@ session_start();
           <div class="d-flex justify-content-center">
           <form class="form-inline my-2 my-lg-0"><!--søkefelt og søkeknapp må legges i en form tagg-->
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search" />
-            <button class="btn  my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
+            <button class="btn btnHover my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
           </form>
         </div>
       </div>
