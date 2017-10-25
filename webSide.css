@@ -25,6 +25,7 @@ body {
 
 }
 #contBox1 {
+<<<<<<< HEAD
   background-color: #efefef;
   color: black;
 }
@@ -37,10 +38,28 @@ body {
 }
 #contBox4 {
   background-color: #3b8480;
+=======
+  background-color: #2f80c4;
+  color:white;
+}
+#contBox2 {
+  background-color: #3e4955;
+}
+#contBox3 {
+  background-color: #bb8822;
+}
+#contBox4 {
+  background-color: #cc9933;
+>>>>>>> 7a00eea0657b2e45a8664aa1b10e6f1aed75042d
 }
 .mainColYlw {
   color: white !important;
 }
+
+.mainColYlw:hover {
+  color: #00FFFF !important;
+}
+
 
 #loginBgCol{
   background-color: #FFFF00 !important;
