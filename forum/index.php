@@ -1,4 +1,9 @@
-<?php include 'load_posts.php'; ?>
+
+<?php
+session_start();
+
+include 'load_posts.php';
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,7 +19,9 @@
     <div>
         <?php
         for ($i = 0; $i < sizeof($posts); $i++) {
-            echo "<p>".$posts[$i][1]."</p>";
+            echo "<p>"."Time: ".$posts[$i]['time']."</p>";
+            echo "<p>"."Post: ".$posts[$i]['text']."</p>";
+
         }
         ?>
     </div>
