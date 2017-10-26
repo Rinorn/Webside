@@ -10,5 +10,5 @@ $result = mysqli_query($link, $sql);
 
 echo $result;
 
-header("Location: index.php");
+header("Location: ../forum.php");
  ?>
