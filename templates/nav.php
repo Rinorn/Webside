@@ -19,11 +19,12 @@
         <li class="nav-item active">
           <a class="nav-link mainColYlw" href="#contBox4">Forum</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="profile.php">Account</a>
-        </li>
         <?php if(isset($_SESSION['id'])){
-          echo '<li class="nav-item active">
+          echo '
+          <li class="nav-item active">
+            <a class="nav-link mainColYlw" href="profile.php">Profile</a>
+          </li>
+          <li class="nav-item active">
             <a class="nav-link mainColYlw" href="#">Calendar</a>
           </li>';
         } ?>
