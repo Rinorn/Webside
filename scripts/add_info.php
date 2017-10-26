@@ -19,8 +19,8 @@ if(isset($_SESSION['uname'])){
     echo 'User does not exist';
   }
 }else{
-  header("Location: index.php");
+  header("Location: ../index.php");
 }
 $_SESSION['aboutme']=$aboutme;
-header("Location: profile.php");
+header("Location: ../profile.php");
  ?>
