@@ -7,6 +7,7 @@ body {
 /* Classes */
 .container-fluid {
   min-height: 450px !important;
+  max-width: 100%;
   }
 
 .jumbotron {
@@ -50,10 +51,11 @@ body {
   width: 100%;
   }
 
-.container-fluid {
-  max-width: 100%;
-  }
-  
+.personalAboConts {
+  height: 450px;
+  background-color: #efefef;
+  border-style: solid;
+}
 /* ID's */
 #btnLogOut {
   margin-top: 1px;
@@ -68,7 +70,7 @@ body {
   font-style: oblique;
   }
 
-#contBox1, #contBox3 {
+#contBox1, #contBox3, #aboutCont1 {
   background-color: #f9f9f9;
   }
 
@@ -83,3 +85,6 @@ body {
 #inpUser, #btnSettings {
   margin-top: -6px;
   }
+#portoPerson{
+  margin-top: 56px;
+}

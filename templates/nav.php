@@ -12,13 +12,13 @@
       <!-- Creatating navbar elements -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="About.php">About</a>
+          <a class="nav-link mainColYlw" href="About.php">about</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="Projects.php">Projects</a>
+          <a class="nav-link mainColYlw" href="Projects.php">projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="Portfolios.php">Portfolio</a>
+          <a class="nav-link mainColYlw" href="Portfolios.php">portfolio</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link mainColYlw" href="#contBox4">Forum</a>

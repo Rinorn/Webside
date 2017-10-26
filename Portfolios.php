@@ -8,9 +8,13 @@
   </head>
   <body>
   <?php include 'templates/nav.php'; ?>
-  <p>
-    TEST
-  </p>
+  <div class="row text-center" id="portoPerson">
+    <div class="col personalAboConts">info about Person 1</div>
+    <div class="col personalAboConts">info about Person 2</div>
+    <div class="w-100"></div>
+    <div class="col personalAboConts">info about Person 3</div>
+    <div class="col personalAboConts">info about Person 4</div>
+  </div>
 
   <?php include 'templates/footer.php'; ?>
   </body>

@@ -49,7 +49,7 @@
             <div class="contText">
               <h1>Forum</h1>
               <h3>blablablatatatata</h3>
-              <h5>To read more klikk<a href="#"> here</a></h5>
+              <h5>To read more klikk<a href="forum.php"> here</a></h5>
             </div>
           </div>
         </div>
