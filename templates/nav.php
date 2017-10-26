@@ -21,7 +21,7 @@
           <a class="nav-link mainColYlw" href="portfolios.php">Portfolio</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="forum.php">Forum</a>
+          <a class="nav-link mainColYlw" href="forum.php#text_post">Forum</a>
         </li>
         <?php if(isset($_SESSION['id'])){
           echo '
