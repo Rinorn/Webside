@@ -1,83 +1,85 @@
-
+/* HTML-tags */
 body {
   overflow-x: hidden;
   overflow-y:scroll;
-}
+  }
 
-#textFont {
-  font-style: oblique;
-}
+/* Classes */
 .container-fluid {
   min-height: 450px !important;
-}
+  }
+
 .jumbotron {
   margin-bottom: 0px !important;
   padding-top: 150px;
   background-color: #3b8480;
   color: white;
+  }
 
-}
 .contText {
   padding-top: 170px;
   margin-bottom: -16px;
+  }
 
-}
-
-.navbar{
+.navbar {
   background-color: #3b8480;
   color: #f9f9f9;
+  }
 
-}
-#contBox1, #contBox3{
-
-  background-color: #f9f9f9;
-
-}
-#contBox2 {
-  background-color: #efefef;
-}
-
-#contBox4 {
-  background-color: #efefef;
-}
 .mainColYlw {
   color: white !important;
-}
+  }
 
 .mainColYlw:hover {
   color: black !important;
-}
+  }
+
 .loginDdMenu{
   background-color: #3b8480 !important;
   width: 50%;
   padding-left: 1px;
   padding-right: 1px;
-}
+  }
+
 .btnHover:hover {
   background-color: #9fa3a3 !important;
-}
-#btnLogIn {
-  margin-bottom: -6px;
-}
+  }
+
 .inpLogin {
   display: block;
   width: 100%;
-}
-#inpUser {
-  margin-top: -6px;
-}
+  }
+
 .container-fluid {
   max-width: 100%;
-}
-#btnSettings {
-  margin-top: -6px;
-
-}
+  }
+  
+/* ID's */
 #btnLogOut {
   margin-top: 1px;
   margin-bottom: -7px;
+  }
 
-}
 #btnAddUser {
   margin-top: 1px;
-}
+  }
+
+#textFont {
+  font-style: oblique;
+  }
+
+#contBox1, #contBox3 {
+  background-color: #f9f9f9;
+  }
+
+#contBox2, #contBox4 {
+  background-color: #efefef;
+  }
+
+#btnLogIn {
+  margin-bottom: -6px;
+  }
+
+#inpUser, #btnSettings {
+  margin-top: -6px;
+  }

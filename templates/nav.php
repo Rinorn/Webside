@@ -1,12 +1,16 @@
-<nav class="navbar navbar-expand-md  navbar-light  fixed-top" id="mainNavbar" ><!--oppretter navbar-->
+<!-- Creates the navbar -->
+<nav class="navbar navbar-expand-md  navbar-light  fixed-top" id="mainNavbar" >
   <div class="container" id="navbarContainer">
+    <!-- Adds a Home tab that loads index.php -->
     <a class="navbar-brand mainColYlw" href="index.php">Home</a> <!--Home knapp som laster index.html-->
-    <a class="navbar-brand" href="#"></a><!--Legger til logo på navbar-->
+    <!-- Adds logo to navbar. Saving for later use-->
+    <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!--Legger til menytoggel knapp når siden er "liten"/dratt sammen-->
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto"> <!--oppretter navbar Elementer-->
+      <!-- Creatating navbar elements -->
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link mainColYlw" href="About.php">About</a>
         </li>
@@ -29,7 +33,8 @@
           </li>';
         } ?>
       </ul>
-      <div><!--må ha en ny div for at bruker knappen skal legges helt til høyere på navbar-->
+      <!-- Creates the User dropdown menu. This needs it's own div and ul element to appear to the far right of the navbar -->
+      <div>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown nav-item-right">
             <a class="nav-link dropdown-toggle mainColYlw" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -59,7 +64,9 @@
             ?>
           </li>
         </ul>
-      </div><!--slutten av "bruker" dropdown-->
+      </div>
+      <!-- Ends the main part of the navbar -->
+      <!-- Adds the search input/button to the collapsed navbar-->
       <form class="form-inline my-2 my-lg-0 d-block d-md-none"><!--søkefelt og søkeknapp må legges i en form tagg-->
         <input class="form-control mr-sm-2" type="search"data-toggle="collapse" placeholder="Search" aria-label="search" />
         <button id="btnSearch" class="btn btnHover my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
