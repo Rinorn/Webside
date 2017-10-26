@@ -8,7 +8,7 @@ $result = mysqli_query($link, $sql);
 $posts = array();
 
 while ($row = mysqli_fetch_row($result)) {
-  array_push($posts, $row[1]);
+  array_push($posts, $row);
 }
 $row = mysqli_fetch_row($result);
 

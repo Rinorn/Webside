@@ -14,7 +14,7 @@
     <div>
         <?php
         for ($i = 0; $i < sizeof($posts); $i++) {
-            echo "<p>".$posts[$i]."</p>";
+            echo "<p>".$posts[$i][1]."</p>";
         }
         ?>
     </div>
