@@ -28,21 +28,21 @@
             <div class="contText">
               <h1>About </h1>
               <h3>Blablablablablablablabla</h3>
-              <h5>To read more klikk<a href="About.php"> here</a></h5>
+              <h5>To read more klikk<a href="about.php"> here</a></h5>
             </div>
           </div>
           <div class="container-fluid text-center" id="contBox2">
             <div class="contText">
               <h1>Projects</h1>
               <h3>blablablatatatata</h3>
-              <h5>To read more klikk<a href="Projects.php"> here</a></h5>
+              <h5>To read more klikk<a href="projects.php"> here</a></h5>
             </div>
           </div>
           <div class="container-fluid text-center" id="contBox3">
             <div class="contText">
               <h1>Portfolias</h1>
               <h3>blablablatatatata</h3>
-              <h5>To read more klikk<a href="Portfolios.php"> here</a></h5>
+              <h5>To read more klikk<a href="portfolios.php"> here</a></h5>
             </div>
           </div>
           <div class="container-fluid text-center" id="contBox4">

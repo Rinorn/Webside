@@ -12,16 +12,16 @@
       <!-- Creatating navbar elements -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="About.php">about</a>
+          <a class="nav-link mainColYlw" href="about.php">About</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="Projects.php">projects</a>
+          <a class="nav-link mainColYlw" href="projects.php">Projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="Portfolios.php">portfolio</a>
+          <a class="nav-link mainColYlw" href="portfolios.php">Portfolio</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="#contBox4">Forum</a>
+          <a class="nav-link mainColYlw" href="forum.php">Forum</a>
         </li>
         <?php if(isset($_SESSION['id'])){
           echo '
