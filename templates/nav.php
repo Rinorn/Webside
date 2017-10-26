@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md  navbar-light  fixed-top" id="mainNavbar" ><!--oppretter navbar-->
   <div class="container" id="navbarContainer">
-    <a class="navbar-brand mainColYlw" href="#contBoxJumbo">Home</a> <!--Home knapp som laster index.html-->
+    <a class="navbar-brand mainColYlw" href="index.php">Home</a> <!--Home knapp som laster index.html-->
     <a class="navbar-brand" href="#"></a><!--Legger til logo på navbar-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!--Legger til menytoggel knapp når siden er "liten"/dratt sammen-->
       <span class="navbar-toggler-icon"></span>
