@@ -4,5 +4,5 @@ session_start();
 session_destroy();
 
 //return user to index.php
-header("Location: index.php");
+header("Location: ../index.php");
  ?>

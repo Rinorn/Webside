@@ -20,7 +20,7 @@ if(!isset($_SESSION['id'])){
     <link rel="stylesheet" href="webSide.css">
   </head>
   <body>
-    <?php include 'nav.php'; ?>
+    <?php include 'templates/nav.php'; ?>
     <main>
       <div class="row" id="contBox1" style="padding-top:100px">
         <div class="container-fluid col-md-7 centered">
@@ -29,7 +29,7 @@ if(!isset($_SESSION['id'])){
               <h3>Settings</h3>
               <br>
               <h5>About me</h5>
-              <form action="add_info.php" method="post">
+              <form action="scripts/add_info.php" method="post">
                 <textarea name="aboutme" rows="8" cols="80"></textarea>
                 <br>
                 <button type="submit">Submit</button>

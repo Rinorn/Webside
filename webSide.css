@@ -1,4 +1,7 @@
 
+body {
+  overflow-x: hidden;
+}
 
 #textFont {
   font-style: oblique;
@@ -18,19 +21,13 @@
   margin-bottom: -16px;
 
 }
-body {
-<<<<<<< HEAD
-  overflow-x: hidden;
-=======
-  overflow-x:hidden;
->>>>>>> 28d4abbe82fd7b17a825d8795228fa36af7280ff
-}
+
 .navbar{
   background-color: #3b8480;
   color: #f9f9f9;
 
 }
-#contBox1 {
+#contBox1, #contBox3{
 
   background-color: #f9f9f9;
 
@@ -39,9 +36,6 @@ body {
   background-color: #efefef;
 }
 
-#contBox3 {
-  background-color: #f9f9f9;
-}
 #contBox4 {
   background-color: #efefef;
 }

@@ -28,6 +28,6 @@ if(!$row = mysqli_fetch_assoc($result)){
 }
 
 //return user to index.php
-header("Location: index.php");
+header("Location: ../index.php");
 
  ?>

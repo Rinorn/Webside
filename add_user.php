@@ -21,7 +21,7 @@ session_start();
      <br />
      <h3>Add new user</h3>
      <!-- method="post" to hide data -->
-     <form action="register.php" method="post">
+     <form action="scripts/register.php" method="post">
        <input type="text" name="fname" placeholder="Firstname">
        <br />
        <input type="text" name="lname" placeholder="Lastname">

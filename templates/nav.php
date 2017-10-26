@@ -42,14 +42,14 @@
             </a>
             <?php
               if(isset($_SESSION['id'])){
-                echo '<form action="logout.php" class="dropdown-menu loginDdMenu" aria-labelledby="navbarDropdown">';
+                echo '<form action="scripts/logout.php" class="dropdown-menu loginDdMenu" aria-labelledby="navbarDropdown">';
                 echo '<a id="btnSettings" class="btn btn-dark btn-block" href="./settings.php">Settings</a>';
                 echo '<button type="submit" id="btnLogOut" class="btn btn-block btn-dark">Log out</button>';
-                echo '<a id="btnAddUser" class="btn btn-block btn-dark" href="./add_user.php">Add user</a>';
+                echo '<a id="btnAddUser" class="btn btn-block btn-dark" href="./scripts/add_user.php">Add user</a>';
                 echo '</form>';
               }
               else{
-                echo '<form action="login.php" method="post" class="dropdown-menu loginDdMenu" aria-labelledby="navbarDropdown">';
+                echo '<form action="scripts/login.php" method="post" class="dropdown-menu loginDdMenu" aria-labelledby="navbarDropdown">';
                 echo '<input id="inpUser" class="inpLogin" name="uname" type="text" placeholder="Skriv inn brukernavn" />';
                 echo '<input id="inpPwd" class="inpLogin" name="pwd" type="password" placeholder="Skriv inn passord" />';
                 echo '<button type="submit" id="btnLogIn" class="btn btn-block btn-dark">Log in <i class="fa fa-sign-in"></i></button>';

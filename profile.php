@@ -18,7 +18,7 @@ if(!isset($_SESSION['id'])){
     <link rel="stylesheet" href="webSide.css">
   </head>
   <body>
-    <?php include 'nav.php'; ?>
+    <?php include 'templates/nav.php'; ?>
     <main>
       <div class="jumbotron text-center jumbotron-fluid d-none d-md-block">
         <h1>Kollokvie Best</h1>

@@ -27,6 +27,6 @@ if(mysqli_fetch_assoc($result_check)){
 }
 
 //return user to index.php
-header("Location: index.php");
+header("Location: ../index.php");
 
  ?>
