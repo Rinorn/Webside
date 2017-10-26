@@ -44,8 +44,8 @@
               if(isset($_SESSION['id'])){
                 echo '<form action="scripts/logout.php" class="dropdown-menu loginDdMenu" aria-labelledby="navbarDropdown">';
                 echo '<a id="btnSettings" class="btn btn-dark btn-block" href="./settings.php">Settings</a>';
-                echo '<button type="submit" id="btnLogOut" class="btn btn-block btn-dark">Log out</button>';
                 echo '<a id="btnAddUser" class="btn btn-block btn-dark" href="./scripts/add_user.php">Add user</a>';
+                echo '<button type="submit" id="btnLogOut" class="btn btn-block btn-dark">Log out</button>';
                 echo '</form>';
               }
               else{

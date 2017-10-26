@@ -73,9 +73,10 @@ body {
 
 }
 #btnLogOut {
-margin-top: 1px;
+  margin-top: 1px;
+  margin-bottom: -7px;
+
 }
 #btnAddUser {
   margin-top: 1px;
-  margin-bottom: -5px;
 }
