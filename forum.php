@@ -22,7 +22,7 @@ include 'scripts/load_posts.php';
             ?>
         </div>
         <form action="scripts/add_post.php" method="post">
-          <textarea name="message" rows="8" cols="80"></textarea>
+          <textarea id="text_post" name="message" rows="8" cols="80"></textarea>
           <button type="submit">Add post</button>
         </form>
       </div>
