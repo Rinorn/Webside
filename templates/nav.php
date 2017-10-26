@@ -8,13 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto"> <!--oppretter navbar Elementer-->
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="#contBox1">About</a>
+          <a class="nav-link mainColYlw" href="About.php">About</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="#contBox2">Projects</a>
+          <a class="nav-link mainColYlw" href="Projects.php">Projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="#contBox3">Portfolio</a>
+          <a class="nav-link mainColYlw" href="Portfolios.php">Portfolio</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link mainColYlw" href="#contBox4">Forum</a>
@@ -44,9 +44,9 @@
             <?php
               if(isset($_SESSION['id'])){
                 echo '<form action="scripts/logout.php" class="dropdown-menu loginDdMenu" aria-labelledby="navbarDropdown">';
-                echo '<a id="btnSettings" class="btn btn-dark btn-block" href="./settings.php">Settings</a>';
-                echo '<a id="btnAddUser" class="btn btn-block btn-dark" href="./scripts/add_user.php">Add user</a>';
-                echo '<button type="submit" id="btnLogOut" class="btn btn-block btn-dark">Log out</button>';
+                echo '<a id="btnSettings" class="btn btn-dark btn-block" href="./settings.php">Settings <i class="fa fa-gear"></i></a>';
+                echo '<a id="btnAddUser" class="btn btn-block btn-dark" href="./scripts/add_user.php">Add user <i class="fa fa-user"></i></a>';
+                echo '<button type="submit" id="btnLogOut" class="btn btn-block btn-dark">Log out <i class="fa fa-sign-out"></i></button>';
                 echo '</form>';
               }
               else{
