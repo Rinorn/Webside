@@ -40,7 +40,7 @@
           </div>
           <div class="container-fluid text-center" id="contBox3">
             <div class="contText">
-              <h1>Portfolias</h1>
+              <h1>Portfolios</h1>
               <h3>blablablatatatata</h3>
               <h5>To read more click<a href="portfolios.php"> here</a></h5>
             </div>

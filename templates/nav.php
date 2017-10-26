@@ -56,8 +56,8 @@
               }
               else{
                 echo '<form action="scripts/login.php" method="post" class="dropdown-menu loginDdMenu" aria-labelledby="navbarDropdown">';
-                echo '<input id="inpUser" class="inpLogin" name="uname" type="text" placeholder="Skriv inn brukernavn" />';
-                echo '<input id="inpPwd" class="inpLogin" name="pwd" type="password" placeholder="Skriv inn passord" />';
+                echo '<input id="inpUser" class="inpLogin" name="uname" type="text" placeholder="Enter username" />';
+                echo '<input id="inpPwd" class="inpLogin" name="pwd" type="password" placeholder="Enter password" />';
                 echo '<button type="submit" id="btnLogIn" class="btn btn-block btn-dark">Log in <i class="fa fa-sign-in"></i></button>';
                 echo '</form>';
               }
