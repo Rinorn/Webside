@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+include 'scripts/get_info.php';
 if(!isset($_SESSION['id'])){
   header("Location: index.php");
 }
@@ -25,10 +25,7 @@ if(!isset($_SESSION['id'])){
               <br>
               <h5>About me</h5>
               <form action="scripts/add_info.php" method="post">
-                <textarea name="aboutme" rows="8" cols="80"><?php
-                    include 'scripts/get_info.php';
-                    echo $row['aboutme'];
-                    ?></textarea>
+                <textarea name="aboutme" rows="8" cols="80"><?php echo $row['aboutme'];?></textarea>
                 <br>
                 <button type="submit">Submit</button>
               </form>
