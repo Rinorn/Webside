@@ -11,7 +11,7 @@
   <main>
     <div class="row">
       <div class="container-fluid col-md-12 centered">
-        <div class="container-fluid text-center" id="aboutCont1">
+        <div class="container-fluid text-center mainContainer" id="aboutCont1">
           <div class="contText">
             <h1>About </h1>
             <p>
@@ -21,7 +21,6 @@
               <br />
               Nunc risus libero, iaculis ut neque eget, pharetra euismod arcu. Donec auctor semper gravida. Quisque sit amet eleifend mi. Quisque non fringilla augue. Proin tristique felis sit amet diam porta, a congue risus congue. Proin  ultrices, augue quis suscipit posuere, libero sem venenatis tellus, a porttitor tortor dui sed quam. Etiam et diam vel quam malesuada eleifend. Proin vel finibus orci. Donec enim nisi, aliquam id aliquam et, vehicula vel libero. Ut a nisl ut arcu imperdiet suscipit eget quis nisl. Morbi sit amet egestas enim, et consectetur lectus. Maecenas commodo efficitur lectus, quis convallis sem suscipit at.
               <br />
-              Maecenas placerat risus hendrerit, pulvinar lorem a, interdum lacus. Donec nec sapien neque. Proin convallis, mi sed finibus tincidunt, eros ante cursus orci, eu molestie quam lorem tristique felis. Quisque a fermentum diam, a  varius nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec nunc facilisis, viverra turpis ut, fringilla sapien. Maecenas convallis orci in ligula blandit, sit amet porttitor   velit gravida. Sed erat mauris, iaculis at sodales vel, eleifend quis nulla. Nullam nec tellus dolor. Suspendisse vestibulum sem diam, non egestas sem dapibus ac. Suspendisse sed venenatis sapien. Ut et augue magna. Cras vulputate  velit et ipsum lobortis, condimentum imperdiet ante condimentum. Aliquam id ornare ante. Proin tempor, enim id blandit imperdiet, enim ligula fringilla nulla, vitae congue purus augue sit amet arcu.
             </p>
           </div>
         </div>

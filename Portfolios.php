@@ -23,33 +23,32 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox" id="person1Link">
+      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto">
           </div>
         </div>
       </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 personPhoto">
+      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 personPhoto">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 personPhoto">
+      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 personPhoto">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 personPhoto">
+      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 personPhoto">
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
   <?php include 'templates/footer.php'; ?>
   </body>
 </html>

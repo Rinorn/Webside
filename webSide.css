@@ -63,9 +63,14 @@ body {
   max-width: 100px;
   min-width: 90px;
   border-style: solid;
-
 }
-
+.projectSlide {
+  min-height: 220px;
+  margin-top: 5px;
+}
+.caroPlacement{
+  margin-top: 20px;
+}
 /* ID's */
 #btnLogOut {
   margin-top: 1px;
@@ -80,7 +85,7 @@ body {
   font-style: oblique;
   }
 
-#contBox1, #contBox3, #aboutCont1, #portoCont1 {
+#contBox1, #contBox3, #aboutCont1, #portoCont1, #projectCont1 {
   background-color: #f9f9f9;
   }
 
@@ -95,6 +100,3 @@ body {
 #inpUser, #btnSettings {
   margin-top: -6px;
   }
-#portoPerson{
-  margin-top: 56px;
-}
