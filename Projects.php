@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>About</title>
+    <title>Projects</title>
     <?php include 'templates/header.php'; ?>
   </head>
   <body>

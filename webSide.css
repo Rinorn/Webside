@@ -5,9 +5,10 @@ body {
   }
 
 /* Classes */
-.container-fluid {
-  min-height: 450px !important;
-  max-width: 100%;
+
+  .mainContainer {
+    min-height: 450px !important;
+    max-width: 100%;
   }
 
 .jumbotron {
@@ -50,12 +51,6 @@ body {
   display: block;
   width: 100%;
   }
-
-.personalAboConts {
-  height: 450px;
-  background-color: #efefef;
-  border-style: solid;
-}
 /* ID's */
 #btnLogOut {
   margin-top: 1px;
