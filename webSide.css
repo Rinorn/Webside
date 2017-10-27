@@ -6,7 +6,7 @@ body {
 
 /* Classes */
 
-  .mainContainer {
+.mainContainer {
     min-height: 450px !important;
     max-width: 100%;
   }
@@ -51,6 +51,21 @@ body {
   display: block;
   width: 100%;
   }
+
+.portoPersBox{
+  height: 400px;
+  border-style: double;
+  background-color: #efefef;
+}
+.personPhoto{
+  max-height: 150px;
+  min-height: 125px;
+  max-width: 100px;
+  min-width: 90px;
+  border-style: solid;
+
+}
+
 /* ID's */
 #btnLogOut {
   margin-top: 1px;
@@ -65,7 +80,7 @@ body {
   font-style: oblique;
   }
 
-#contBox1, #contBox3, #aboutCont1 {
+#contBox1, #contBox3, #aboutCont1, #portoCont1 {
   background-color: #f9f9f9;
   }
 
