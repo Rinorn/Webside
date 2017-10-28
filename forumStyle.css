@@ -1,0 +1,31 @@
+#timeStyle {
+    height:50px !important;
+    width:  initial !important;
+    background-color: #3b8480;
+    text-align: center !important;
+    border: 10px solid #3b8490 !important;
+
+
+
+}
+
+#messageStyle {
+
+    background-color: #d3e7ed !important;
+    height:200px !important;
+    width: 400px !important;
+    margin-bottom: 15px;
+    border: 5px solid #3b8490 !important;
+    /*outline: 5px solid #3b7490 !important;*/
+    padding: 50px !important;
+}
+
+#userStyle {
+    background-color: #d3e7ed;
+    height:200px !important;
+    width: 200px;
+    height: 600px;
+    margin-bottom: 15px;
+    border: 5px solid #3b8490 !important;
+
+}
