@@ -66,10 +66,10 @@ body {
 }
 .projectSlide {
   min-height: 220px;
-  margin-top: 5px;
 }
-.caroPlacement{
-  margin-top: 20px;
+.noPadd {
+  padding-left: 0;
+  padding-right: 0;
 }
 /* ID's */
 #btnLogOut {
@@ -100,3 +100,13 @@ body {
 #inpUser, #btnSettings {
   margin-top: -6px;
   }
+#btnLeftCaro{
+  margin-top: 65px;
+  font-size: 80px;
+  color: #000000;
+}
+#btnRightCaro{
+  margin-top: 65px;
+  font-size: 80px;
+  color: #000000;
+}

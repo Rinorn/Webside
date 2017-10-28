@@ -22,51 +22,61 @@
         </div>
       </div>
     </div>
-    <div class="carousel slide caroPlacement" data-ride="carousel">
-      <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 bg-dark projectSlide">
+    <div  id="carouselExampleControls" class="carousel slide text-center" data-ride="carousel">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1 col-md-2 col-2 noPadd">
+            <a class="left carousel-control btnCaro" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="fa fa-angle-left pull-right" id="btnLeftCaro" aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="col-lg-10 col-md-8 col-10 noPadd">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-4 bg-dark projectSlide">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-4 bg-primary projectSlide">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-4 bg-danger projectSlide">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 bg-warning projectSlide">
+                    </div>
+                    <div class="col-lg-4 col-md-6 bg-primary projectSlide">
+                    </div>
+                    <div class="col-lg-4 col-md-6 bg-success projectSlide">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 bg-danger projectSlide">
+                    </div>
+                    <div class="col-lg-4 col-md-6 bg-dark projectSlide">
+                    </div>
+                    <div class="col-lg-4 col-md-6 bg-success projectSlide">
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4 bg-primary projectSlide">
-            </div>
-            <div class="col-lg-4 bg-danger projectSlide">
-            </div>
+          </div>
+          <div class="col-lg-1 col-md-2 col-2 noPadd">
+            <a class="right carousel-control btnCaro" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="fa fa-angle-right pull-left" id="btnRightCaro" aria-hidden="true"></span>
+            </a>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 bg-warning projectSlide">
-            </div>
-            <div class="col-lg-4 bg-primary projectSlide">
-            </div>
-            <div class="col-lg-4 bg-success projectSlide">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 bg-danger projectSlide">
-            </div>
-            <div class="col-lg-4 bg-dark projectSlide">
-            </div>
-            <div class="col-lg-4 bg-success projectSlide">
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
     </div>
   </main>
   <?php include 'templates/footer.php'; ?>
