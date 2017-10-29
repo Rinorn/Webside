@@ -23,10 +23,11 @@ include 'scripts/load_posts.php';
                 echo "<div class='row'>";
                 echo "<div class='col-sm-4'></div>";
                 echo "<div class='text-left col-sm-1' id='userStyle'><p>"."User: "."</p></div>";
-                echo "<div class='text-left col-sm-3' id='messageStyle'><p>"."Post: ".$posts[$i]['text']."</p></div>";
-                echo "<div class='btn-group-vertical'>";
+                echo "<div class='text-left col-sm-3' id='messageStyle'><p>"."Post: ".$posts[$i]['text']."</p>";
+                echo "<div class='btn-group btn-group-sm btn-group-justified'>";
                 echo "<button id='reply' class='btn btn-primary' type='reply'>Reply</button>";
                 echo "<button id='delete'class='btn btn-default btn-danger' type='delete'>Delete post</button>";
+                echo "</div>";
                 echo "</div>";
                 echo "</div>";
             }
