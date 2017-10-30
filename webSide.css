@@ -19,7 +19,7 @@ body {
   }
 
 .contText {
-  padding-top: 170px;
+  padding-top: 160px;
   margin-bottom: -16px;
   }
 
@@ -66,10 +66,18 @@ body {
 }
 .projectSlide {
   min-height: 220px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .noPadd {
   padding-left: 0;
   padding-right: 0;
+}
+.projectConts{
+  margin-top: 17px;
+  height: 250px;
+  border-style: double;
+  background-color: #efefef;
 }
 /* ID's */
 #btnLogOut {
@@ -101,12 +109,18 @@ body {
   margin-top: -6px;
   }
 #btnLeftCaro{
-  margin-top: 65px;
+  margin-top: 120px;
   font-size: 80px;
   color: #000000;
 }
 #btnRightCaro{
-  margin-top: 65px;
+  margin-top: 120px;
   font-size: 80px;
   color: #000000;
+}
+#indexProjTextbox {
+  padding-top: 80px !important;
+}
+#portoConts{
+  margin-top: 17px;
 }

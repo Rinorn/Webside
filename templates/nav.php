@@ -20,9 +20,6 @@
         <li class="nav-item active">
           <a class="nav-link mainColYlw" href="portfolios.php">Portfolio</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="forum.php#text_post">Forum</a>
-        </li>
         <?php if(isset($_SESSION['id'])){
           echo '
           <li class="nav-item active">
@@ -67,10 +64,6 @@
       </div>
       <!-- Ends the main part of the navbar -->
       <!-- Adds the search input/button to the collapsed navbar-->
-      <form class="form-inline my-2 my-lg-0 d-block d-md-none"><!--søkefelt og søkeknapp må legges i en form tagg-->
-        <input class="form-control mr-sm-2" type="search"data-toggle="collapse" placeholder="Search" aria-label="search" />
-        <button id="btnSearch" class="btn btnHover my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
-      </form>
     </div>
   </div>
 </nav>

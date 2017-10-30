@@ -16,10 +16,6 @@
         <h1>Kollokvie Best</h1>
         <p>We specialize in corn</p>
           <div class="d-flex justify-content-center">
-          <form class="form-inline my-2 my-lg-0"><!--søkefelt og søkeknapp må legges i en form tagg-->
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search" />
-            <button class="btn btnHover my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
-          </form>
         </div>
       </div>
       <div class="row">
@@ -32,10 +28,66 @@
             </div>
           </div>
           <div class="container-fluid mainContainer text-center" id="contBox2">
-            <div class="contText">
+            <div class="contText" id="indexProjTextbox">
               <h1>Projects</h1>
               <h3>blablablatatatata</h3>
               <h5>To read more click<a href="projects.php"> here</a></h5>
+            </div>
+            <div  id="carouselExampleControls" class="carousel slide text-center" data-ride="carousel">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-1 col-md-2 col-2 noPadd">
+                    <a class="left carousel-control btnCaro" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="fa fa-angle-left pull-right" id="btnLeftCaro" aria-hidden="true"></span>
+                    </a>
+                  </div>
+                  <div class="col-lg-10 col-md-8 col-10 noPadd">
+                    <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-4 col-md-4 col-4 bg-dark projectSlide">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-4 bg-primary projectSlide">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-4 bg-danger projectSlide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-4 col-md-6 bg-warning projectSlide">
+                            </div>
+                            <div class="col-lg-4 col-md-6 bg-primary projectSlide">
+                            </div>
+                            <div class="col-lg-4 col-md-6 bg-success projectSlide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-4 col-md-6 bg-danger projectSlide">
+                            </div>
+                            <div class="col-lg-4 col-md-6 bg-dark projectSlide">
+                            </div>
+                            <div class="col-lg-4 col-md-6 bg-success projectSlide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-1 col-md-2 col-2 noPadd">
+                    <a class="right carousel-control btnCaro" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="fa fa-angle-right pull-left" id="btnRightCaro" aria-hidden="true"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="container-fluid mainContainer text-center" id="contBox3">
@@ -43,13 +95,6 @@
               <h1>Portfolios</h1>
               <h3>blablablatatatata</h3>
               <h5>To read more click<a href="portfolios.php"> here</a></h5>
-            </div>
-          </div>
-          <div class="container-fluid mainContainer text-center" id="contBox4">
-            <div class="contText">
-              <h1>Forum</h1>
-              <h3>blablablatatatata</h3>
-              <h5>To read more click<a href="forum.php"> here</a></h5>
             </div>
           </div>
         </div>
