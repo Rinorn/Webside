@@ -36,11 +36,25 @@ if(!isset($_SESSION['id'])){
               <div class="float-right">
                 <h2>Personalia</h2>
                 <ul>
-                  <li>E-mail</li>
-                  <li>Personal page</li>
-                  <li>etc</li>
-                  <li>etc</li>
-                  <li>etc</li>
+                  <li><?php if(!empty($_SESSION['email'])){
+                    echo $_SESSION['email'];
+                  } else {
+                    echo 'user@email.com';
+                  } ?></li>
+                  <li><?php if(!empty($_SESSION['phone'])){
+                    echo $_SESSION['phone'];
+                  } else {
+                    echo '12345678';
+                  } ?></li>
+                  <li><a href=<?php if(!empty($_SESSION['personalpage'])){
+                  echo '"'.$_SESSION['personalpage'].'"';
+                } else {
+                  echo '"www.me.com"';
+                } ?>><?php if(!empty($_SESSION['personalpage'])){
+                  echo $_SESSION['personalpage'];
+                } else {
+                  echo 'www.me.com';
+                } ?></a></li>
                 </ul>
               </div>
             </div>

@@ -27,6 +27,13 @@ if(!isset($_SESSION['id'])){
               <form action="scripts/add_info.php" method="post">
                 <textarea name="aboutme" rows="8" cols="80"><?php echo $row['aboutme'];?></textarea>
                 <br>
+                <p>E-mail</p>
+                <input type="text" name="email" value=<?php echo '"'.$row['email'].'"';?>>
+                <p>Phone</p>
+                <input type="text" name="phone" value=<?php echo '"'.$row['phone'].'"';?>>
+                <p>Personal page</p>
+                <input type="text" name="personalpage" value=<?php echo '"'.$row['personalpage'].'"';?>>
+                <br><br>
                 <button type="submit">Submit</button>
               </form>
             </div>
