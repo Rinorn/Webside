@@ -32,49 +32,59 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid" id="portoConts">
+  <div class="container" id="portoConts">
     <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
+      <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
           </div>
-          <h6 class="pfolioName">Ole-Henning Undrum</h6>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h6 class="pfolioName">Ole-Henning Undrum<br />
+              <br />
+              Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a>
+            </h6>
+          </div>
         </div>
-        <p>Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a></p>
         <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr</p> <!-- må sette sperre på 240 chars.-->
         <p>Click<a href="#"> Here </a>to watch my portofolio</p>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
+      <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
           </div>
-          <h6 class="pfolioName">Ole-Henning Undrum</h6>
+          <h6 class="pfolioName">Ole-Henning Undrum<br />
+            <br />
+            Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a>
+          </h6>
         </div>
-        <p>Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a></p>
+        <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhs proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit</p> <!-- må sette sperre på 240 chars.-->
+        <p>Click<a href="#"> Here </a>to watch my portofolio</p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
+            <img src="images/placeholder.png" class="pfolioPic" />
+          </div>
+          <h6 class="pfolioName">Ole-Henning Undrum<br />
+            <br />
+            Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a>
+          </h6>
+        </div>
         <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr</p> <!-- må sette sperre på 240 chars.-->
         <p>Click<a href="#"> Here </a>to watch my portofolio</p>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
+      <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
           </div>
-          <h6 class="pfolioName">Ole-Henning Undrum</h6>
+          <h6 class="pfolioName">Ole-Henning Undrum<br />
+            <br />
+            Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a>
+          </h6>
         </div>
-        <p>Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a></p>
-        <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr</p> <!-- må sette sperre på 240 chars.-->
-        <p>Click<a href="#"> Here </a>to watch my portofolio</p>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 portoPersBox">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
-            <img src="images/placeholder.png" class="pfolioPic" />
-          </div>
-          <h6 class="pfolioName">Ole-Henning Undrum</h6>
-        </div>
-        <p>Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a></p>
         <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr</p> <!-- må sette sperre på 240 chars.-->
         <p>Click<a href="#"> Here </a>to watch my portofolio</p>
       </div>
