@@ -34,24 +34,24 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6 projectConts" id="projectBox1">
+        <div class="col-lg-3 col-md-6 col-sm-6 projectConts">
           <img src="images/placeholder.pgn">
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 projectConts" id="projectBox1">
+        <div class="col-lg-3 col-md-6 col-sm-6 projectConts">
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 projectConts" id="projectBox1">
+        <div class="col-lg-3 col-md-6 col-sm-6 projectConts">
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 projectConts" id="projectBox1">
+        <div class="col-lg-3 col-md-6 col-sm-6 projectConts">
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6 projectConts" id="projectBox1">
+        <div class="col-lg-3 col-md-6 col-sm-6 projectConts">
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 projectConts" id="projectBox1">
+        <div class="col-lg-3 col-md-6 col-sm-6 projectConts">
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 projectConts" id="projectBox1">
+        <div class="col-lg-3 col-md-6 col-sm-6 projectConts">
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 projectConts" id="projectBox1">
+        <div class="col-lg-3 col-md-6 col-sm-6 projectConts">
         </div>
       </div>
     </div>
