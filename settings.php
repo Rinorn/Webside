@@ -38,9 +38,9 @@ if(!isset($_SESSION['id'])){
               </form>
               <br>
               <p>Change password</p>
-              <form action="change_password.php" method="post" >
+              <form action="scripts/change_password.php" method="post" >
                 <input type="password" name="cur_password" placeholder="Current password">
-                <input type="password" name="" placeholder="New password">
+                <input type="password" name="new_password" placeholder="New password">
                 <button type="submit">Change</button>
               </form>
             </div>
