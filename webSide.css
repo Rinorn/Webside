@@ -67,7 +67,8 @@ body {
   border-style: double;
 }
 .projectSlide {
-  min-height: 220px;
+  min-height: 300px;
+  max-height: 300px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -77,9 +78,10 @@ body {
 }
 .projectConts{
   margin-top: 17px;
-  height: 250px;
+  min-height: 250px;
   border-style: double;
   background-color: #efefef;
+
 }
 .pfolioName {
   padding-left: 10px;
@@ -89,6 +91,26 @@ body {
   width: 100%;
   height: 100%;
   object-fit: fill;
+}
+.projectPic{
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+  object-fit: fill;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 8px;
+    background-color: gray;
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 8px;
+    background-color: black;
 }
 /* ID's */
 #btnLogOut {
@@ -120,12 +142,12 @@ body {
   margin-top: -6px;
   }
 #btnLeftCaro{
-  margin-top: 120px;
+  margin-top: 140px;
   font-size: 80px;
   color: #000000;
 }
 #btnRightCaro{
-  margin-top: 120px;
+  margin-top: 140px;
   font-size: 80px;
   color: #000000;
 }
@@ -134,4 +156,7 @@ body {
 }
 #portoConts{
   margin-top: 17px;
+}
+#indicProSlideBar {
+  padding-bottom: 15px;
 }
