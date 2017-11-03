@@ -27,6 +27,9 @@
           </li>
           <li class="nav-item active">
             <a class="nav-link mainColYlw" href="#">Calendar</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link mainColYlw" href="forum.php">Forum</a>
           </li>';
         } ?>
       </ul>
