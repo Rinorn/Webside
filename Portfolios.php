@@ -91,7 +91,7 @@ include 'scripts/get_personalia.php';
             <img src="images/placeholder.png" class="pfolioPic" />
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
-            <h6 class="pfolioName">Ole-Henning Undrum<br />
+            <h6 class="pfolioName">Christoffer Nymoen<br />
               <br />
               Email: <a href="#"><?php echo $chriss['email']; ?></a>
             </h6>
