@@ -29,7 +29,7 @@ if(!isset($_SESSION['id'])){
                 echo "<div class='text-left col-sm-3' id='messageStyle'><p>"."Post: ".$posts[$i]['text']."</p>";
                 echo "<div class='btn-group btn-group-sm btn-group-justified'>";
                 echo "<button id='reply' class='btn btn-primary' type='reply'>Reply</button>";
-                echo "<form action="delete_post.php" method="post"><button id='$posts[$i]['id']' class='btn btn-default btn-danger' type='delete'>Delete post</button></form>";
+                echo "<form action='delete_post.php' method='post'><input type='submit' name='$posts[$i]['id']' value='Delete' class='btn btn-default btn-danger'/></form>";
                 echo "</div>";
                 echo "</div>";
                 echo "</div>";

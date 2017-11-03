@@ -2,7 +2,7 @@
 
     include 'db_conf.php';
 
-    $id = $_SESSION['id'];
+    $id = $_POST['id'];
 
     $sql_del = "DELETE * FROM posts WHERE id='$id'";
 
