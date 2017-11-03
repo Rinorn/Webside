@@ -2,6 +2,9 @@
 <?php
 session_start();
 include 'scripts/load_posts.php';
+if(!isset($_SESSION['id'])){
+  header("Location:index.php");
+}
 ?>
 <!DOCTYPE html>
 <html>
