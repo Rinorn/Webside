@@ -4,7 +4,7 @@
 
     $id = $_POST['id'];
 
-    $sql_del = "DELETE * FROM posts WHERE id='$id'";
+    $sql_del = "DELETE FROM `posts` WHERE `posts`.`id` = $id;";
 
     $result = mysqli_query($link, $sql_del);
 
