@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php
+session_start();
+include 'scripts/get_personalia.php';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -42,51 +45,60 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <h6 class="pfolioName">Ole-Henning Undrum<br />
               <br />
-              Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a>
+              Email: <a href="#"><?php echo $ole['email']; ?></a>
             </h6>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr</p> <!-- må sette sperre på 240 chars.-->
-        <p>Click<a href="#"> Here </a>to watch my portofolio</p>
+        <p><?php echo $ole['aboutme']; ?></p>
+        <p>Click<a href=<?php echo '"'.$ole['personalpage'].'"'; ?>> Here </a>to watch my portofolio</p>
       </div>
+
       <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
           </div>
-          <h6 class="pfolioName">Ole-Henning Undrum<br />
-            <br />
-            Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a>
-          </h6>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h6 class="pfolioName">Vegard Hermansen<br />
+              <br />
+              Email: <a href="#"><?php echo $vegard['email']; ?></a>
+            </h6>
+          </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhs proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit</p> <!-- må sette sperre på 240 chars.-->
-        <p>Click<a href="#"> Here </a>to watch my portofolio</p>
+        <p><?php echo $vegard['aboutme']; ?></p>
+        <p>Click<a href=<?php echo '"'.$vegard['personalpage'].'"'; ?>> Here </a>to watch my portofolio</p>
       </div>
+
       <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
           </div>
-          <h6 class="pfolioName">Ole-Henning Undrum<br />
-            <br />
-            Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a>
-          </h6>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h6 class="pfolioName">Jørgen Ringstad<br />
+              <br />
+              Email: <a href="#"><?php echo $jorgen['email']; ?></a>
+            </h6>
+          </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr</p> <!-- må sette sperre på 240 chars.-->
-        <p>Click<a href="#"> Here </a>to watch my portofolio</p>
+        <p><?php echo $jorgen['aboutme']; ?></p>
+        <p>Click<a href=<?php echo '"'.$jorgen['personalpage'].'"'; ?>> Here </a>to watch my portofolio</p>
       </div>
+
       <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
           </div>
-          <h6 class="pfolioName">Ole-Henning Undrum<br />
-            <br />
-            Email:<a href="olehennu@hiof.no"> olehennu@hiof.no</a>
-          </h6>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h6 class="pfolioName">Christoffer Nymoen<br />
+              <br />
+              Email: <a href="#"><?php echo $chriss['email']; ?></a>
+            </h6>
+          </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, rutrum inceptos nulla ligula vestibulum in. Quam mi eget nunc nonummy bibendum aliquam, fusce commodo massa sodales proin velit erat, justo rhoncus pharetra interdum sed odio, eu ornare. Nec velit sedhehehehehegr</p> <!-- må sette sperre på 240 chars.-->
-        <p>Click<a href="#"> Here </a>to watch my portofolio</p>
+        <p><?php echo $chriss['aboutme']; ?></p>
+        <p>Click<a href=<?php echo '"'.$chriss['personalpage'].'"'; ?>> Here </a>to watch my portofolio</p>
       </div>
     </div>
   </div>

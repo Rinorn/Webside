@@ -15,13 +15,13 @@ session_start();
       if(isset($_SESSION['id'])){
         echo "Logged in as userid: " . $_SESSION['id'];
       } else {
-        header("Location:index.php");
+        header("Location:../index.php");
       }
      ?>
      <br />
      <h3>Add new user</h3>
      <!-- method="post" to hide data -->
-     <form action="scripts/register.php" method="post">
+     <form action="register.php" method="post">
        <input type="text" name="fname" placeholder="Firstname">
        <br />
        <input type="text" name="lname" placeholder="Lastname">

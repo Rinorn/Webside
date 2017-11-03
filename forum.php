@@ -2,6 +2,9 @@
 <?php
 session_start();
 include 'scripts/load_posts.php';
+if(!isset($_SESSION['id'])){
+  header("Location:index.php");
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +25,7 @@ include 'scripts/load_posts.php';
                 echo "<div class='container text-left col-sm-4' id='timeStyle'><p>"."Time: ".$posts[$i]['time']." ID: ".$posts[$i]['id']."</p></div>";
                 echo "<div class='row'>";
                 echo "<div class='col-sm-4'></div>";
-                echo "<div class='text-left col-sm-1' id='userStyle'><p>"."User: "."</p></div>";
+                echo "<div class='text-left col-sm-1' id='userStyle'><p>"."User: ".$posts[$i]['uname']."</p></div>";
                 echo "<div class='text-left col-sm-3' id='messageStyle'><p>"."Post: ".$posts[$i]['text']."</p>";
                 echo "<div class='btn-group btn-group-sm btn-group-justified'>";
                 echo "<button id='reply' class='btn btn-primary' type='reply'>Reply</button>";
