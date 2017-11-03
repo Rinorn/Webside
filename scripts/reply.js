@@ -1,10 +1,6 @@
-<script>
 $(document).ready(function(){
-    $("button").click(function(){
-        $("parent,parent").hide();
+    $(".button_reply").click(function(){
+        var test=$(this).parent().parent().children("p:first").html();
+        $("#text_post").val(test);
     });
 });
-
-</script>
-
-parent parent

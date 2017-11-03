@@ -28,7 +28,7 @@ if(!isset($_SESSION['id'])){
                 echo "<div class='text-left col-sm-1' id='userStyle'><p>"."User: ".$posts[$i]['uname']."</p></div>";
                 echo "<div class='text-left col-sm-3' id='messageStyle'><p id='text_".$posts[$i]['id']."'>"."Post: ".$posts[$i]['text']."</p>";
                 echo "<div class='btn-group btn-group-sm btn-group-justified'>";
-                echo "<button id='reply' class='btn btn-primary button_reply' type='reply'>Reply</button>";
+                echo "<button class='btn btn-primary button_reply'>Reply</button>";
                 echo "<form action='scripts/delete_post.php' method='post'><input type='hidden' name='id' value='".$posts[$i]['id']."'/><button type='submit' class='btn btn-danger'>Delete</button></form>";
                 echo "</div>";
                 echo "</div>";
