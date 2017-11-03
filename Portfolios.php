@@ -37,7 +37,7 @@ include 'scripts/get_personalia.php';
   </div>
   <div class="container" id="portoConts">
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
+      <div class="col-lg-6 col-md-6 col-sm-12 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
@@ -53,7 +53,7 @@ include 'scripts/get_personalia.php';
         <p>Click<a href=<?php echo '"'.$ole['personalpage'].'"'; ?>> Here </a>to watch my portofolio</p>
       </div>
 
-      <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
+      <div class="col-lg-6 col-md-6 col-sm-12 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
@@ -69,7 +69,7 @@ include 'scripts/get_personalia.php';
         <p>Click<a href=<?php echo '"'.$vegard['personalpage'].'"'; ?>> Here </a>to watch my portofolio</p>
       </div>
 
-      <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
+      <div class="col-lg-6 col-md-6 col-sm-12 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
@@ -85,7 +85,7 @@ include 'scripts/get_personalia.php';
         <p>Click<a href=<?php echo '"'.$jorgen['personalpage'].'"'; ?>> Here </a>to watch my portofolio</p>
       </div>
 
-      <div class="col-lg-6 col-md-6 col-sm-6 portoPersBox">
+      <div class="col-lg-6 col-md-6 col-sm-12 portoPersBox">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 personPhoto noPadd">
             <img src="images/placeholder.png" class="pfolioPic" />
