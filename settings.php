@@ -25,7 +25,7 @@ if(!isset($_SESSION['id'])){
               <br>
               <h5>About me</h5>
               <form action="scripts/add_info.php" method="post">
-                <textarea name="aboutme" rows="8" cols="80"><?php echo $row['aboutme'];?></textarea>
+                <textarea name="aboutme" rows="8" cols="80" maxlength="300"><?php echo $row['aboutme'];?></textarea>
                 <br>
                 <p>E-mail</p>
                 <input type="text" name="email" value=<?php echo '"'.$row['email'].'"';?>>
