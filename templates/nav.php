@@ -12,16 +12,13 @@
       <!-- Creatating navbar elements -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="About.php">about</a>
+          <a class="nav-link mainColYlw" href="about.php">About</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="Projects.php">projects</a>
+          <a class="nav-link mainColYlw" href="projects.php">Projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="Portfolios.php">portfolio</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link mainColYlw" href="#contBox4">Forum</a>
+          <a class="nav-link mainColYlw" href="portfolios.php">Portfolio</a>
         </li>
         <?php if(isset($_SESSION['id'])){
           echo '
@@ -30,6 +27,9 @@
           </li>
           <li class="nav-item active">
             <a class="nav-link mainColYlw" href="#">Calendar</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link mainColYlw" href="forum.php">Forum</a>
           </li>';
         } ?>
       </ul>
@@ -56,8 +56,8 @@
               }
               else{
                 echo '<form action="scripts/login.php" method="post" class="dropdown-menu loginDdMenu" aria-labelledby="navbarDropdown">';
-                echo '<input id="inpUser" class="inpLogin" name="uname" type="text" placeholder="Skriv inn brukernavn" />';
-                echo '<input id="inpPwd" class="inpLogin" name="pwd" type="password" placeholder="Skriv inn passord" />';
+                echo '<input id="inpUser" class="inpLogin" name="uname" type="text" placeholder="Enter username" />';
+                echo '<input id="inpPwd" class="inpLogin" name="pwd" type="password" placeholder="Enter password" />';
                 echo '<button type="submit" id="btnLogIn" class="btn btn-block btn-dark">Log in <i class="fa fa-sign-in"></i></button>';
                 echo '</form>';
               }
@@ -67,10 +67,6 @@
       </div>
       <!-- Ends the main part of the navbar -->
       <!-- Adds the search input/button to the collapsed navbar-->
-      <form class="form-inline my-2 my-lg-0 d-block d-md-none"><!--søkefelt og søkeknapp må legges i en form tagg-->
-        <input class="form-control mr-sm-2" type="search"data-toggle="collapse" placeholder="Search" aria-label="search" />
-        <button id="btnSearch" class="btn btnHover my-2 y-sm-0" type="submit"><i class="fa fa-search"></i> Search</button>
-      </form>
     </div>
   </div>
 </nav>

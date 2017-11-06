@@ -8,9 +8,4 @@ define('DB_NAME', 'kollb_hp');
 //Connecting to database
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-//Checking for errors
-if($link===false){
-  die("Could not connect to database: " . mysqli_connect_error());
-}
-
 ?>

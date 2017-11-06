@@ -10,6 +10,5 @@ $posts = array();
 while ($row = mysqli_fetch_assoc($result)) {
   array_push($posts, $row);
 }
-$row = mysqli_fetch_row($result);
 
 ?>
